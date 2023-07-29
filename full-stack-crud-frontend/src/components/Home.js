@@ -102,10 +102,11 @@ function Home() {
         />
 
         <input
-          type="text"
+          type="password"
           value={password}
           placeholder="Enter Password"
-          onChange={(e) => setPassword(e.target.value)}
+          onChange={(e) => setPassword(e.target.value)
+          }
         />
 
         <button type="submit" onClick={updateId ? updateTask : addUser}>
